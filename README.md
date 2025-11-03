@@ -1,5 +1,5 @@
 # About Me
-Preparing for job search.  More details and updated coming soon!
+Preparing for job search.  More details and updates coming soon!
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...

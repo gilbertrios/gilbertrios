@@ -72,8 +72,7 @@ Brief description of what this project does and technologies used.
 ## 🤝 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gilbert-rios-22586918/)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=hotmail&logoColor=white)](mailto:gilbertrios@hotmsil.com)
-
+[![Email](https://img.shields.io/badge/-Email-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:gilbertrios@hotmail.com)
 ## 💡 Random Developer Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 

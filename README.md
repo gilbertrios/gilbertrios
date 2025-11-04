@@ -16,7 +16,9 @@ Preparing for job search.  More details and updates coming soon!
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
 ### Frameworks & Libraries
-![Azure SDK](https://img.shields.io/badge/-Azure%20SDK-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)![Reqnroll](https://img.shields.io/badge/-Reqnroll-5C2D91?style=flat-square&logo=.net&logoColor=white)
+![Azure SDK](https://img.shields.io/badge/-Azure%20SDK-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Reqnroll](https://img.shields.io/badge/-Reqnroll-5C2D91?style=flat-square&logo=.net&logoColor=white)
+![Cosmos SDK](https://img.shields.io/badge/-Cosmos%20SDK-6F42C1?style=flat-square&logo=cosmos&logoColor=white)
 ![xUnit](https://img.shields.io/badge/Testing-xUnit-512BD4?style=flat-square&logo=.net&logoColor=white)
 ![Moq](https://img.shields.io/badge/Mocking-Moq-512BD4?style=flat-square&logo=.net&logoColor=white)
 ![NSubstitute](https://img.shields.io/badge/Mocking-NSubstitute-512BD4?style=flat-square&logo=.net&logoColor=white)

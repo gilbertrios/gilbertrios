@@ -5,6 +5,36 @@
 - 📫 How to reach me: gilbertrios@hotmail.com
 - ⚡ Interesting fact: I had the honor of participating in the 2001 New York City Marathon, which took place just weeks after September 11th. It was a powerful demonstration of the city's resilience and spirit!
 
+## 🛠️ Skills & Technologies
+
+### Infrastructure & Cloud
+- **Terraform** - Infrastructure as Code with Azure provider
+- **Azure** - Resource Groups, Storage Accounts, Virtual Networks
+- **GitHub Actions** - CI/CD pipelines and automation
+- **Infrastructure as Code** - Modular, reusable Terraform modules
+
+### DevOps & Automation  
+- **CI/CD Pipelines** - Automated deployment workflows
+- **Version Control** - Git branching strategies and PR workflows
+- **Security** - Secret management and access controls
+- **State Management** - Remote state with Azure backend
+
+## 🔥 Featured Projects
+
+### [🏗️ Azure Terraform Foundation](https://github.com/gilbertrios/azure-terraform-foundation)
+*Terraform-based Azure infrastructure with automated CI/CD*
+
+**Key Features:**
+- ✅ Multi-environment setup (dev/prod)
+- ✅ Reusable Terraform modules  
+- ✅ GitHub Actions automation
+- ✅ Azure backend configuration
+- ✅ Security best practices
+
+**Technologies:** `Terraform` `Azure` `GitHub Actions` `IaC` `DevOps`
+
+---
+<!-- Start
 ## 🛠️ Technologies & Tools
 
 ### Programming Languages
@@ -36,7 +66,7 @@
 ![App Insights](https://img.shields.io/badge/-App%20Insights-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
 ![Deployment Strategy](https://img.shields.io/badge/DevOps-Blue%2FGreen-4CAF50?style=flat-square&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
+End -->
 <!--Start
 ## 📊 GitHub Stats
 
@@ -48,20 +78,6 @@
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=gilbertrios&theme=radical)
 End-->
-
-## 🏆 Featured Projects
-
-### 📱 [Project TDB 1](https://github.com/gilbertrios/project1)
-Brief description of what this project does and technologies used.
-- **Tech Stack:** React, Node.js, MongoDB
-- **Features:** Feature 1, Feature 2, Feature 3
-- ⭐ Stars: X | 🍴 Forks: Y
-
-### 🌐 [Project TBD 2](https://github.com/gilbertrios/project2)
-Brief description of what this project does and technologies used.
-- **Tech Stack:** Python, Django, PostgreSQL
-- **Features:** Feature 1, Feature 2, Feature 3
-- ⭐ Stars: X | 🍴 Forks: Y
 
 <!--
 ## 📝 Latest Blog Posts

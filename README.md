@@ -7,17 +7,23 @@
 
 ## 🛠️ Skills & Technologies
 
+### Development & Programming
+- **Go** - Custom Terraform provider development, API design
+- **Testing** - Unit testing, test coverage, TDD practices
+- **API Design** - Plugin frameworks, interface design
+- **Version Control** - Git workflows, branching strategies, code review
+
 ### Infrastructure & Cloud
-- **Terraform** - Infrastructure as Code with Azure provider
+- **Terraform** - Infrastructure as Code with Azure provider, custom provider development
 - **Azure** - Resource Groups, Storage Accounts, Virtual Networks
 - **GitHub Actions** - CI/CD pipelines and automation
 - **Infrastructure as Code** - Modular, reusable Terraform modules
 
 ### DevOps & Automation  
-- **CI/CD Pipelines** - Automated deployment workflows
-- **Version Control** - Git branching strategies and PR workflows
+- **CI/CD Pipelines** - Automated deployment workflows, multi-platform builds
 - **Security** - Secret management and access controls
 - **State Management** - Remote state with Azure backend
+- **Build Automation** - Makefiles, release automation
 
 ## 🔥 Featured Projects
 
@@ -32,6 +38,20 @@
 - ✅ Security best practices
 
 **Technologies:** `Terraform` `Azure` `GitHub Actions` `IaC` `DevOps`
+
+---
+
+### [⚡ Terraform Provider Utils](https://github.com/gilbertrios/terraform-provider-utils)
+*Custom Terraform provider with 13+ utility functions for data transformation*
+
+**Key Features:**
+- ✅ Function-only provider (no resources)
+- ✅ String manipulation & encoding (base64, hashing, slugify)
+- ✅ Deterministic UUID generation
+- ✅ Built with Go & Terraform Plugin Framework
+- ✅ 100% test coverage with CI/CD pipeline
+
+**Technologies:** `Go` `Terraform` `Plugin Development` `GitHub Actions` `Testing`
 
 ---
 <!-- Start

@@ -72,6 +72,31 @@
 **Technologies:** `Go` `Terraform` `Plugin Development` `GitHub Actions` `Testing`
 
 ---
+
+## 🧰 Developer Tools
+
+### [📸 GitHub Thumbnail Generator](./thumb-nail-creation)
+*Automated tool for creating professional social preview images for GitHub repositories*
+
+**Key Features:**
+- ✅ Generates 1280x640px thumbnails optimized for LinkedIn/social media
+- ✅ Custom branding with profile photo and tech stack badges
+- ✅ Configurable color schemes and layouts
+- ✅ Batch processing for multiple repositories
+- ✅ Automatic image optimization
+
+**Technologies:** `Python` `Pillow` `Image Processing`
+
+**Quick Start:**
+```bash
+cd thumb-nail-creation
+pip3 install Pillow
+python3 generate_thumbnail.py
+```
+
+📖 **[Full Documentation](./docs/README.md)** - Includes LinkedIn cache refresh guide
+
+---
 ## 🛠️ Technologies & Tools
 
 ### Programming Languages

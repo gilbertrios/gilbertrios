@@ -72,6 +72,31 @@
 **Technologies:** `Go` `Terraform` `Plugin Development` `GitHub Actions` `Testing`
 
 ---
+
+## 🧰 Developer Tools
+
+### [📸 GitHub Thumbnail Generator](./thumb-nail-creation)
+*Automated tool for creating professional social preview images for GitHub repositories*
+
+**Key Features:**
+- ✅ Generates 1280x640px thumbnails optimized for LinkedIn/social media
+- ✅ Custom branding with profile photo and tech stack badges
+- ✅ Configurable color schemes and layouts
+- ✅ Batch processing for multiple repositories
+- ✅ Automatic image optimization
+
+**Technologies:** `Python` `Pillow` `Image Processing`
+
+**Quick Start:**
+```bash
+cd thumb-nail-creation
+pip3 install Pillow
+python3 generate_thumbnail.py
+```
+
+📖 **[Full Documentation](./docs/README.md)** - Includes LinkedIn cache refresh guide
+
+---
 ## 🛠️ Technologies & Tools
 
 ### Programming Languages
@@ -111,48 +136,6 @@ End-->
 - [Blog Post Title 2](link-to-post)
 - [Blog Post Title 3](link-to-post)
 -->
-
-## 📸 GitHub Thumbnail Generator
-
-Create professional 1280x640px social preview images for your repositories to make them stand out on LinkedIn and other platforms.
-
-### Quick Start
-
-1. **Install Pillow** (Python imaging library):
-   ```bash
-   pip3 install Pillow
-   ```
-
-2. **Edit `thumbnail_config.json`** with your repository details:
-   ```json
-   {
-     "output_dir": "thumbnails",
-     "repositories": [
-       {
-         "name": "Your Repo Name",
-         "description": "Brief description of your project",
-         "tech_stack": ["Python", "React", "Docker", "AWS"]
-       }
-     ]
-   }
-   ```
-
-3. **Generate thumbnails**:
-   ```bash
-   python3 generate_thumbnail.py
-   ```
-
-4. **Upload to GitHub**:
-   - Go to your repo → Settings → Social preview
-   - Click Edit and upload your thumbnail PNG
-
-### Best Practices
-- Keep descriptions under 100 characters
-- Use 3-6 technology names in tech stack
-- Thumbnails are saved in the `thumbnails/` directory
-- Files are optimized and ready for upload
-
----
 
 ## 🤝 Connect with Me
 

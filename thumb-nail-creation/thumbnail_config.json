@@ -7,6 +7,11 @@
       "tech_stack": [".NET 9.0", "C#", "Azure", "Terraform", "GitHub Actions"]
     },
     {
+      "name": "Azure Auth Roles Next.js",
+      "description": "Full-stack enterprise authentication system with Azure AD and role-based access control",
+      "tech_stack": ["Next.js 14", "TypeScript", ".NET 10", "Azure AD", "Terraform"]
+    },
+    {
       "name": "Azure Terraform Foundation",
       "description": "Terraform-based Azure infrastructure with automated CI/CD",
       "tech_stack": ["Terraform", "Azure", "GitHub Actions", "IaC"]

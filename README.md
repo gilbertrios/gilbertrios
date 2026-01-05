@@ -78,6 +78,7 @@
 
 ---
 
+<<<<<<< HEAD
 ### [🏗️ Azure Terraform Foundation](https://github.com/gilbertrios/azure-terraform-foundation)
 *Terraform-based Azure infrastructure with automated CI/CD*
 
@@ -92,6 +93,8 @@
 
 ---
 
+=======
+>>>>>>> main
 ## 🧰 Developer Tools
 
 ### [📸 GitHub Thumbnail Generator](./thumb-nail-creation)

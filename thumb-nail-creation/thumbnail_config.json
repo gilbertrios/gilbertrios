@@ -1,0 +1,20 @@
+{
+  "output_dir": "thumbnails",
+  "repositories": [
+    {
+      "name": "Azure App Service Logging",
+      "description": "Production-ready .NET 9.0 API with 7-stage deployment pipeline and blue-green deployments",
+      "tech_stack": [".NET 9.0", "C#", "Azure", "Terraform", "GitHub Actions"]
+    },
+    {
+      "name": "Azure Terraform Foundation",
+      "description": "Terraform-based Azure infrastructure with automated CI/CD",
+      "tech_stack": ["Terraform", "Azure", "GitHub Actions", "IaC"]
+    },
+    {
+      "name": "Terraform Provider Utils",
+      "description": "Custom Terraform provider with 13+ utility functions for data transformation",
+      "tech_stack": ["Go", "Terraform", "Testing", "CI/CD"]
+    }
+  ]
+}

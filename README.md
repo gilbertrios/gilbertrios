@@ -1,6 +1,6 @@
 # About Me
 
-- ☁️ Cloud platform engineer with 8+ years building cloud infrastructure, PaaS, DevOps solutions, and production APIs. I specialize in Azure App Services, .NET development, Terraform IaC, GitHub Actions, and creating shared tooling that accelerates development teams. Expert in blue-green deployments, automated testing, and observability. Always exploring new ways to improve system reliability and developer experience.
+- ☁️ Senior Cloud Engineer with 8+ years building cloud infrastructure, PaaS, DevOps solutions, and production APIs. I specialize in Azure App Services, .NET development, Terraform IaC, GitHub Actions, and creating shared tooling that accelerates development teams. Expert in blue-green deployments, automated testing, and observability. Always exploring new ways to improve system reliability and developer experience.
 - 🌱 I’m currently learning AI basics
 - 📫 How to reach me: gilbertrios@hotmail.com
 - ⚡ Interesting fact: I had the honor of participating in the 2001 New York City Marathon, which took place just weeks after September 11th. It was a powerful demonstration of the city's resilience and spirit!
@@ -9,20 +9,24 @@
 
 ### Development & Programming
 - **.NET/C#** - ASP.NET Core minimal APIs, custom middleware, dependency injection
+- **Next.js/TypeScript** - Full-stack applications, server components, API routes, enterprise authentication integration
 - **Go** - Custom Terraform provider development, API design
 - **Testing** - Unit testing (xUnit, Moq, FluentAssertions), integration testing, test coverage, TDD practices
-- **API Design** - Plugin frameworks, interface design
+- **API Design** - Plugin frameworks, interface design, JWT validation, cross-service authentication
 - **Version Control** - Git workflows, branching strategies, code review
 
 ### Infrastructure & Cloud
 - **Terraform** - Infrastructure as Code with Azure provider, custom provider development
-- **Azure** - Resource Groups, Storage Accounts, Virtual Networks
+- **Azure** - Resource Groups, Storage Accounts, Virtual Networks, App Services, Cosmos DB, private endpoints
+- **Azure AD** - OAuth 2.0/OIDC integration, role-based access control, managed identities
+- **Azure Networking** - VNet isolation, private endpoints, zero-trust architecture
 - **GitHub Actions** - CI/CD pipelines and automation
 - **Infrastructure as Code** - Modular, reusable Terraform modules
 
 ### DevOps & Automation  
 - **CI/CD Pipelines** - Automated deployment workflows, multi-platform builds
-- **Security** - Secret management and access controls
+- **Security** - Secret management, access controls, JWT token management, role-based authorization
+- **Authentication & Authorization** - Enterprise OAuth 2.0/OIDC flows, NextAuth.js, role-based UI protection
 - **State Management** - Remote state with Azure backend
 - **Build Automation** - Makefiles, release automation
 - **Blue-Green Deployments** - Zero-downtime deployments with automated rollback
@@ -45,17 +49,18 @@
 
 ---
 
-### [🏗️ Azure Terraform Foundation](https://github.com/gilbertrios/azure-terraform-foundation)
-*Terraform-based Azure infrastructure with automated CI/CD*
+### [🔐 Azure Auth Roles Next.js](https://github.com/gilbertrios/azure-auth-roles-nextjs)
+*Full-stack enterprise authentication system with Azure AD and role-based access control*
 
 **Key Features:**
-- ✅ Multi-environment setup (dev/prod)
-- ✅ Reusable Terraform modules  
-- ✅ GitHub Actions automation
-- ✅ Azure backend configuration
-- ✅ Security best practices
+- ✅ Azure AD OAuth 2.0/OIDC integration with role-based authorization (Admin/Manager/User)
+- ✅ Next.js 14 frontend with TypeScript and .NET 8 minimal API backend
+- ✅ Private network security: VNet isolation, private endpoints, zero-trust architecture
+- ✅ Comprehensive role-based UI and API protection with JWT validation
+- ✅ Production-ready infrastructure with Terraform IaC and managed identities
+- ✅ Automated CI/CD workflows for multi-environment deployment
 
-**Technologies:** `Terraform` `Azure` `GitHub Actions` `IaC` `DevOps`
+**Technologies:** `Next.js 14` `TypeScript` `.NET 8` `Azure AD` `NextAuth.js` `Terraform` `Cosmos DB` `Azure VNet` `GitHub Actions`
 
 ---
 
@@ -70,6 +75,45 @@
 - ✅ 100% test coverage with CI/CD pipeline
 
 **Technologies:** `Go` `Terraform` `Plugin Development` `GitHub Actions` `Testing`
+
+---
+
+### [🏗️ Azure Terraform Foundation](https://github.com/gilbertrios/azure-terraform-foundation)
+*Terraform-based Azure infrastructure with automated CI/CD*
+
+**Key Features:**
+- ✅ Multi-environment setup (dev/prod)
+- ✅ Reusable Terraform modules  
+- ✅ GitHub Actions automation
+- ✅ Azure backend configuration
+- ✅ Security best practices
+
+**Technologies:** `Terraform` `Azure` `GitHub Actions` `IaC` `DevOps`
+
+---
+
+## 🧰 Developer Tools
+
+### [📸 GitHub Thumbnail Generator](./thumb-nail-creation)
+*Automated tool for creating professional social preview images for GitHub repositories*
+
+**Key Features:**
+- ✅ Generates 1280x640px thumbnails optimized for LinkedIn/social media
+- ✅ Custom branding with profile photo and tech stack badges
+- ✅ Configurable color schemes and layouts
+- ✅ Batch processing for multiple repositories
+- ✅ Automatic image optimization
+
+**Technologies:** `Python` `Pillow` `Image Processing`
+
+**Quick Start:**
+```bash
+cd thumb-nail-creation
+pip3 install Pillow
+python3 generate_thumbnail.py
+```
+
+📖 **[Full Documentation](./docs/README.md)** - Includes LinkedIn cache refresh guide
 
 ---
 ## 🛠️ Technologies & Tools
@@ -93,24 +137,6 @@
 ![App Insights](https://img.shields.io/badge/-App%20Insights-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
 ![Blue-Green Deployment](https://img.shields.io/badge/Strategy-Blue%2FGreen-4CAF50?style=flat-square&logo=azure-devops&logoColor=white)
 
-<!--Start
-## 📊 GitHub Stats
-
-![Gilbert Rios GitHub Stats](https://github-readme-stats.vercel.app/api?username=gilbertrios&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gilbertrios&layout=compact&theme=radical)
-
-## 🔥 GitHub Streak
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=gilbertrios&theme=radical)
-End-->
-
-<!--
-## 📝 Latest Blog Posts
-- [Blog Post Title 1](link-to-post)
-- [Blog Post Title 2](link-to-post)
-- [Blog Post Title 3](link-to-post)
--->
 
 ## 🤝 Connect with Me
 

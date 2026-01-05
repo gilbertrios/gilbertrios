@@ -14,6 +14,7 @@ gilbertrios/
 │   ├── repo-profile.jpg          # Your profile photo (optional)
 │   └── thumbnails/               # Generated thumbnails output directory
 │       ├── azure-app-service-logging.png
+│       ├── azure-auth-roles-nextjs.png
 │       ├── azure-terraform-foundation.png
 │       └── terraform-provider-utils.png
 ├── docs/
@@ -89,14 +90,24 @@ Update the configuration file with your repository details:
   "output_dir": "thumbnails",
   "repositories": [
     {
-      "name": "Your Repo Name",
-      "description": "Brief description of your project (keep under 100 characters)",
-      "tech_stack": ["Python", "React", "Docker", "AWS", "PostgreSQL"]
+      "name": "Azure App Service Logging",
+      "description": "Production-ready .NET 9.0 API with 7-stage deployment pipeline and blue-green deployments",
+      "tech_stack": [".NET 9.0", "C#", "Azure", "Terraform", "GitHub Actions"]
     },
     {
-      "name": "Another Repo",
-      "description": "Another project description",
-      "tech_stack": ["Go", "Terraform", "GitHub Actions"]
+      "name": "Azure Auth Roles Next.js",
+      "description": "Full-stack enterprise authentication system with Azure AD and role-based access control",
+      "tech_stack": ["Next.js 14", "TypeScript", ".NET 10", "Azure AD", "Terraform"]
+    },
+    {
+      "name": "Azure Terraform Foundation",
+      "description": "Terraform-based Azure infrastructure with automated CI/CD",
+      "tech_stack": ["Terraform", "Azure", "GitHub Actions", "IaC"]
+    },
+    {
+      "name": "Terraform Provider Utils",
+      "description": "Custom Terraform provider with 13+ utility functions for data transformation",
+      "tech_stack": ["Go", "Terraform", "Testing", "CI/CD"]
     }
   ]
 }
@@ -144,10 +155,11 @@ python3 generate_thumbnail.py
 
 ```
 ✅ Created thumbnail: thumbnails/azure-app-service-logging.png
+✅ Created thumbnail: thumbnails/azure-auth-roles-nextjs.png
 ✅ Created thumbnail: thumbnails/azure-terraform-foundation.png
 ✅ Created thumbnail: thumbnails/terraform-provider-utils.png
 
-🎉 Generated 3 thumbnail(s) in 'thumbnails/' directory
+🎉 Generated 4 thumbnail(s) in 'thumbnails/' directory
 
 📋 Next steps:
    1. Review thumbnails in 'thumbnails/' directory
